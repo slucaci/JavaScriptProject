@@ -31,7 +31,7 @@
       href="assets/images/logo.png"
       type="image/x-icon"
     />
-    <script src="assets/script.js" defer></script>
+    <script src="assets/script.js" defer type="module"></script>
   </head>
   <body>
     <section class="header1">
@@ -65,8 +65,53 @@
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
-
-
+      <div id="tracker">
+        <table class="gymTracker">
+            <thead>
+                <tr>
+                    <th>Workout</th>
+                    <th>Date</th>
+                    <th>Duration</th>
+                    <th>Number of Exercises</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody class="addEntry">
+                <tr class="trackerRow">
+                    <td>
+                        <select class="trackerGym">
+                            <option value="Push">Push</option>
+                            <option value="Pull">Pull</option>
+                            <option value="Legs">Legs</option>
+                            <option value="UpperBody">UpperBody</option>
+                            <option value="LowerBody">LowerBody</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="date" class="trackerDate">
+                    </td>
+                    <td>
+                        <input  type="Number" class="trackerTime">
+                        <span class="trackerText">Number of Exercises</span>
+                    </td>
+                    <td>
+                        <input  type="Number" class="trackerTime">
+                        <span class="trackerText">Number of Exercises</span>
+                    </td>
+                    <td>
+                        <button type="button" class="trackerBtn">&times;</button>
+                    </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr class="trackerRow trackerRowAdd">
+                    <td colspan="4">
+                        <span class="trackerAdd">Add Workout &plus;</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
 
     <footer>
       <div class="footer-content">
