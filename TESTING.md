@@ -26,7 +26,6 @@ Visit the site deployed on github: [HomeWorkout](https://slucaci.github.io/HTMLC
 - [Contact Us Page](https://slucaci.github.io/HTMLCSS/contactus.html) - 0 erros
 - [Blog Page](https://slucaci.github.io/HTMLCSS/blog.html) - 0 errors
 - [Equipment Page](https://slucaci.github.io/HTMLCSS/equipment.html) - 0 errors
-- [Thank You Page](https://slucaci.github.io/HTMLCSS/thankyou.html) - 0 errors
 
 [ CSS W3C](https://jigsaw.w3.org/css-validator/) was used to validate the CSS code.
 
