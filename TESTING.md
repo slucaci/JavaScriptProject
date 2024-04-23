@@ -1,4 +1,4 @@
-# Home Workout
+# Gym Workout
 
 ![Image](assets/documentation/GymWorkoutamiresponsive.png)
 
