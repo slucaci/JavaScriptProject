@@ -95,7 +95,7 @@ I selected a background image with dumbbells reflecting strength and vitality, i
 Wireframes were created for mobile and desktop using Balsamiq.
 
 ![Mobile wireframes](assets/documentation/iphonebalsamiq.png)
-![Desktop wireframes](assets/documentation/desktopBalsamiq.png)
+![Desktop wireframes](assets/documentation/desktopbalsamiq.png)
 
 ### Features
 
