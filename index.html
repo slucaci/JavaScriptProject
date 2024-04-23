@@ -31,7 +31,8 @@
       href="assets/images/logo.png"
       type="image/x-icon"
     />
-    <script src="assets/script.js" defer type="module"></script>
+    <script type="module" src="assets/main.js"></script>
+    <script type="module" src="assets/GymTracker.js"></script>
   </head>
   <body>
     <section class="header1">
@@ -47,25 +48,50 @@
               <a href="index.html"> <i class="fa-solid fa-house"></i>Home </a>
             </li>
             <li>
-                <a href="contactus.html">
-                  <i class="fa-solid fa-circle-info"></i>Contact Us
-                </a>
-                <li>
-                    <a href="Program.html">
-                      <i class="fa-solid fa-circle-info"></i>Program
-                    </a>
+              <a href="contactus.html">
+                <i class="fa-solid fa-circle-info"></i>Contact Us
+              </a>
+            </li>
+
             <li>
-                <a class="btn btn-light" href="Plans.html">
-                  <i class="fa fa-list-alt" aria-hidden="true"></i>Plans
-                </a>
-              </li>
-            
+              <a href="Program.html">
+                <i class="fas fa-dumbbell"></i>Program
+              </a>
+            </li>
+
+            <li>
+              <a class="btn btn-dark" href="Plans.html">
+                <i class="fas fa-chart-line"></i>Plans
+              </a>
             </li>
           </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
-
+      <div class="main">
+        <h1 class="text-xxl">Home</h1>
+        <p class="text-xxl bold-text">
+          Explore our comprehensive plans tailored to your fitness needs and
+          goals.
+        </p>
+        <button class="btn btn-primary">
+          <a href="Plans.html">Get Started</a>
+        </button>
+      </div>
+    </section>
+    <!--Intro text-->
+    <section class="homepage-section">
+      <div class="content">
+        <p>
+          Uncover a world of fitness possibilities with our diverse range of
+          plans. Seamlessly monitor your workout routines and progress through
+          our user-friendly platform. Take charge of your fitness journey and
+          achieve your goals with ease using our innovative tools and resources.
+        </p>
+        <img src="assets\images\gym.webp" alt="Gym image" />
+      </div>
+    </section>
+    <!--Footer-->
     <footer>
       <div class="footer-content">
         <h3>Find us on:</h3>

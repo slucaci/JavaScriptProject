@@ -31,7 +31,8 @@
       href="assets/images/logo.png"
       type="image/x-icon"
     />
-    <script src="assets/script.js" defer type="module"></script>
+    <script type="module" src="assets/main.js"></script>
+    <script type="module" src="assets/GymTracker.js"></script>
   </head>
   <body>
     <section class="header1">
@@ -47,72 +48,55 @@
               <a href="index.html"> <i class="fa-solid fa-house"></i>Home </a>
             </li>
             <li>
-                <a href="contactus.html">
-                  <i class="fa-solid fa-circle-info"></i>Contact Us
-                </a>
-                <li>
-                    <a href="Program.html">
-                      <i class="fa-solid fa-circle-info"></i>Program
-                    </a>
+              <a href="contactus.html">
+                <i class="fa-solid fa-circle-info"></i>Contact Us
+              </a>
+            </li>
             <li>
-                <a class="btn btn-light" href="Plans.html">
-                  <i class="fa fa-list-alt" aria-hidden="true"></i>Plans
-                </a>
-              </li>
-            
+              <a href="Program.html">
+                <i class="fas fa-dumbbell"></i>Program
+              </a>
+            </li>
+
+            <li>
+              <a class="btn btn-dark" href="Plans.html">
+                <i class="fas fa-chart-line"></i>Plans
+              </a>
             </li>
           </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
-      <div id="tracker">
-        <table class="gymTracker">
-            <thead>
-                <tr>
-                    <th>Workout</th>
-                    <th>Date</th>
-                    <th>Duration</th>
-                    <th>Number of Exercises</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody class="addEntry">
-                <tr class="trackerRow">
-                    <td>
-                        <select class="trackerGym">
-                            <option value="Push">Push</option>
-                            <option value="Pull">Pull</option>
-                            <option value="Legs">Legs</option>
-                            <option value="UpperBody">UpperBody</option>
-                            <option value="LowerBody">LowerBody</option>
-                        </select>
-                    </td>
-                    <td>
-                        <input type="date" class="trackerDate">
-                    </td>
-                    <td>
-                        <input  type="Number" class="trackerTime">
-                        <span class="trackerText">Number of Exercises</span>
-                    </td>
-                    <td>
-                        <input  type="Number" class="trackerTime">
-                        <span class="trackerText">Number of Exercises</span>
-                    </td>
-                    <td>
-                        <button type="button" class="trackerBtn">&times;</button>
-                    </td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr class="trackerRow trackerRowAdd">
-                    <td colspan="4">
-                        <span class="trackerAdd">Add Workout &plus;</span>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-      </div>
 
+      <!-- Home title-->
+      <div class="main">
+        <h1 class="text-xxl">Track Your Gym Workouts with Ease</h1>
+        <p class="text-xxl bold-text">
+          Take Your Fitness Routine to the Next Level!
+        </p>
+      </div>
+    </section>
+    <!--Intro text-->
+    <div class="intro-text">
+      <h2>Welcome to Gym Tracker</h2>
+      <p>
+        Effortlessly track and monitor your workouts with precision and ease.
+      </p>
+    </div>
+    <!--Gym Workout tracker-->
+    <div id="app"></div>
+    <!--Timer-->
+    <div id="timeContainer">
+      <p>
+        Maximize your workout efficiency by tracking rest intervals between
+        sets.
+      </p>
+      <div id="timeDisplay" class="time-display">00:00:00</div>
+      <button id="startBtn" class="timerBtn btn-dark">Start</button>
+      <button id="pauseBtn" class="timerBtn btn-dark">Pause</button>
+      <button id="resetBtn" class="timerBtn btn-dark">Reset</button>
+    </div>
+    <!--Footer-->
     <footer>
       <div class="footer-content">
         <h3>Find us on:</h3>
