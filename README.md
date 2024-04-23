@@ -1,8 +1,8 @@
-# Gym Workout
+# Gym Tracker
 
 ![Image](assets/documentation/GymWorkoutamiresponsive.png)
 
-Visit the site deployed on github: [GymWorkout](https://slucaci.github.io/JavaScriptProject/index.html)
+Visit the site deployed on github: [GymTracker](https://slucaci.github.io/JavaScriptProject/index.html)
 
 Welcome to GymTracker App! GymTracker is offering a way to track your workouts and elevate your fitness journey.
 
@@ -99,7 +99,7 @@ Wireframes were created for mobile and desktop using Balsamiq.
 
 ### Features
 
-Explore the GymWorkout website with 4 pages, where you can select what type of workout you would like and the track your journey.
+Explore the GymTracker website with 4 pages, where you can select what type of workout you would like and the track your journey.
 
 All Pages on the website are responsive and have:
 
@@ -195,7 +195,7 @@ HTML, CSS and JavaScript.
 
 ### Deployment
 
-The site is deployed using GitHub Pages on - [GymWorkout](https://slucaci.github.io/JavaScriptProject/index.html)
+The site is deployed using GitHub Pages on - [GymTracker](https://slucaci.github.io/JavaScriptProject/index.html)
 
 Steps to deploy on github pages:
 

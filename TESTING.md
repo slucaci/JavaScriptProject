@@ -1,8 +1,8 @@
-# Gym Workout
+# Gym Tracker
 
 ![Image](assets/documentation/GymWorkoutamiresponsive.png)
 
-Visit the site deployed on github: [GymWorkout](https://slucaci.github.io/JavaScriptProject/index.html)
+Visit the site deployed on github: [GymTracker](https://slucaci.github.io/JavaScriptProject/index.html)
 
 ## CONTENTS
 
