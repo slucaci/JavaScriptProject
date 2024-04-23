@@ -540,6 +540,7 @@ footer {
   opacity: 0.4;
   font-weight: 200;
 }
+/*Media queries*/
 @media (max-width: 768px) {
   .container-contact2 {
     display: inline-block;
