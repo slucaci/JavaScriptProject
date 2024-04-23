@@ -1,8 +1,8 @@
 # Home Workout
 
-![Image](assets/documentation/HomeWorkoutAmIResponsive.png)
+![Image](assets/documentation/GymWorkoutamiresponsive.png)
 
-Visit the site deployed on github: [HomeWorkout](https://slucaci.github.io/HTMLCSS/index.html)
+Visit the site deployed on github: [SymWorkout](https://slucaci.github.io/JavaScriptProject/index.html)
 
 ## CONTENTS
 
