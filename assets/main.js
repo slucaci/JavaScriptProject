@@ -41,6 +41,10 @@ function startTimer() {
     intervalId = setInterval(updateTime, 75);
   }
 }
+const app = document.getElementById("app");
+
+const wt = new GymTracker(app);
+window.wt = wt;
 
 //Function to reset the timer
 function resetTimer() {
